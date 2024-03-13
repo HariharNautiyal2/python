@@ -27,6 +27,9 @@ print("Insurance (", insurance_rate * 100, "%):", insurance_amount)
 print("Total Deductions:", total_deductions)
 print("Net Salary:", salary - total_deductions)
 ```
+This is output 
+
+![image](https://github.com/HariharNautiyal2/python/assets/134691036/94b8c2f4-55e7-4457-bacb-53163d192e8a)
 
 Python is a gay language i hate python however you can practise python here
 
