@@ -1,5 +1,8 @@
 # Program that calculates GST And Insurance rate
 Python program that calculates GST (30%) and insurance (2%) of an employee's salary:
+
+<br>
+
 ```
 def calculate_deductions(salary):
   gst_rate = 30 / 100  # Convert percentage to decimal
@@ -27,6 +30,7 @@ print("Insurance (", insurance_rate * 100, "%):", insurance_amount)
 print("Total Deductions:", total_deductions)
 print("Net Salary:", salary - total_deductions)
 ```
+<br>
 This is output 
 
 ![image](https://github.com/HariharNautiyal2/python/assets/134691036/94b8c2f4-55e7-4457-bacb-53163d192e8a)
