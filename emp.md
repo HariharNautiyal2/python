@@ -4,31 +4,15 @@ Python program that calculates GST (30%) and insurance (2%) of an employee's sal
 <br>
 
 ```
-def calculate_deductions(salary):
-  gst_rate = 30 / 100  # Convert percentage to decimal
-  insurance_rate = 2 / 100
+salary = int(input("Tell the salary: "))
+gst = 30/100 * salary
+etc = 2/100 * salary
 
-  gst_amount = salary * gst_rate
-  insurance_amount = salary * insurance_rate
-  total_deductions = gst_amount + insurance_amount
+print("Salary: ",salary)
+print("Gst: ",gst)
+print("ETC: ",etc)
+print("Remaning slry ",salary - etc - gst)
 
-  return gst_amount, insurance_amount, total_deductions
-
-
-# Get employee's salary
-salary = float(input("Enter employee's salary: "))
-
-# Calculate deductions
-gst_amount, insurance_amount, total_deductions = calculate_deductions(salary)
-
-
-
-# Print the results
-print("Employee Salary:", salary)
-print("GST (", gst_rate * 100, "%):", gst_amount)
-print("Insurance (", insurance_rate * 100, "%):", insurance_amount)
-print("Total Deductions:", total_deductions)
-print("Net Salary:", salary - total_deductions)
 ```
 <br>
 This is output 
