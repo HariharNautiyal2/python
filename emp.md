@@ -17,7 +17,8 @@ print("Remaning slry ",salary - etc - gst)
 <br>
 This is output 
 
-![image](https://github.com/HariharNautiyal2/python/assets/134691036/94b8c2f4-55e7-4457-bacb-53163d192e8a)
+![image](https://github.com/HariharNautiyal2/python/assets/134691036/c5508a1a-700e-47aa-82b0-1998fc513eda)
+
 
 Python is a gay language i hate python however you can practise python here
 
