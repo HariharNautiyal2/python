@@ -3,7 +3,7 @@ Python program that calculates GST (30%) and insurance (2%) of an employee's sal
 
 <br>
 
-```
+```python
 salary = int(input("Tell the salary: "))
 gst = 30/100 * salary
 etc = 2/100 * salary
